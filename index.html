@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formulir Pendaftaran Relavan Muda Banjar</h1>
+    <fieldset>
+        <table>
+            <form action="">
+                <legend>Data ribadi</legend>
+
+                <tr>
+                    <td><label for="name"></label>Nama Lengkap</td>
+                    <td>:</td>
+                    <td><input type="text" id="nama" name="nama" required></td>
+                </tr>
+                <tr>
+                    <td><label for="emailadress">Alamat Email</label></td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="tlp">Nomor Telepon</label></td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="adress">Alamat</label></td>
+                    <td>:</td>
+                    <td><textarea cols="60" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="ttl">Tanggal Lahir</label></td>
+                    <td>:</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Jenis Kelamin</label></td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" name="JK">
+                        <label for="text">Pria</label>
+                        <input type="radio" name="JK">
+                        <label for="text">Wanita</label>
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </fieldset>
+    <fieldset>
+        <table>
+            <form action="">
+                <legend>Latar Belakang Pendidikan</legend>
+                <tr>
+                    <td><label for="scholl">Tingkat Pendidikan</label></td>
+                    <td>:</td>
+                    <td>
+                        <select>
+                            <option>SD</option>
+                            <option>SMP</option>
+                            <option>SMK/SMA</option>
+                            <option>Universitas</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="scholl">Asal Sekolah</label></td>
+                    <td>:</td>
+                    <td>
+                        <select>
+                            <option>SMKN 1 BANJAR</option>
+                            <option>SMKN 2 BANJAR</option>
+                            <option>SMKN 3 BANJAR</option>
+                            <option>SMKN 4 BANJAR</option>
+                            <option>SMAN 1 BANJAR</option>
+                            <option>SMAN 2 BANJAR</option>
+                            <option>SMAN 3 BANJAR</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="ekskul">Ekstrakulikuler</label></td>
+                    <td>:</td>
+                    <td>
+                        <label for=""></label>
+                        <input type="checkbox">
+                        <label for="">Pramuka</label>
+                        <input type="checkbox">
+                        <label for="">Pmr</label>
+                        <input type="checkbox">
+                        <label for="">Paskibra</label>
+                        <input type="checkbox">
+                        <label for="">Volyy</label>
+                        <input type="checkbox">
+                        <label for="">Basket</label>
+                        <input type="checkbox">
+                        <label for="">GreenGeneration</label>
+                        <input type="checkbox">
+                        <label for="">Futsal</label>
+                        <input type="checkbox">
+                        <label for="">Osis</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="unique">Keahlian</label></td>
+                    <td>:</td>
+                    <td>
+                        <input type="text" name="nama_user" placeholder="Misal: Bermain musik, seni, programming">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </fieldset>
+    <fieldset>
+        <table>
+            <form action="">
+                <legend>Lampiran</legend>
+                <tr>
+                    <td><label for="photo">Upload foto diri</label></td>
+                    <td>:</td>
+                    <td><input class="upload" type="file"></td>
+                </tr>
+                <tr>
+                    <td><label for="cv">Upload cv</label></td>
+                    <td>:</td>
+                    <td><input class="upload" type="file"></td>
+                </tr>
+            </form>
+        </table>
+    </fieldset>
+    <fieldset>
+        <table>
+            <form action="">
+                <legend>Motivasi</legend>
+                <tr>
+                    <td><label for="motivation">Mengapa Anda ingin menjadi anggota relawan Banjar?</label></td>
+                    <td>:</td>
+                    <td><textarea cols="60" rows="10"></textarea></td>
+                </tr>
+            </form>
+        </table>
+    </fieldset>
+    <fieldset>
+        <table>
+            <form action="">
+                <legend>Persetujuan</legend>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                        <label for="">Saya menyetujui bahwa data yang Saya berikan adalah benar dan dapat
+                            dipertanggungjawabkan.</label>
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </fieldset>
+    <input type="button" value="Daftar">
+</body>
+
+</html>
